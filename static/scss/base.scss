@@ -1,0 +1,10 @@
+// Vendor Styles
+@import 'bootstrap';
+
+// Core variables and mixins
+@import 'variables';
+
+//Core CSS
+@import 'body'; //always first
+@import 'header';
+@import 'footer';

@@ -1,0 +1,55 @@
+//Typography Fonts
+
+//Body Regular
+@mixin font-body-regular ($size: $font-size-base, $height: $line-height-base) {
+    font: 400 #{$size}/#{$height} 'Roboto',
+    Helvetica,
+    Arial,
+    sans-serif;
+    letter-spacing: 1px;
+}
+
+//Body Semi-Bold
+@mixin font-body-semi-bold ($size: $font-size-base, $height: $line-height-base) {
+    font: 600 #{$size}/#{$height} 'Open Sans',
+    Helvetica,
+    Arial,
+    sans-serif;
+    letter-spacing: 1px;
+}
+
+//Body Bold
+@mixin font-body-bold ($size: $font-size-base, $height: $line-height-base) {
+    font: 700 #{$size}/#{$height} 'Open Sans',
+    Helvetica,
+    Arial,
+    sans-serif;
+    letter-spacing: 1px;
+}
+
+
+// Standard Colors
+$flight-blue: #17CEDA;
+
+// Bootstrap Overrides
+$body-bg: #fff;
+$text-color: black;
+$font-size-base: 16px;
+$line-height-base: 1.1em;
+
+//Container override at large breakpoint
+// @media (min-width: 1200px) {
+//     .container {
+//         max-width: (1290px + $grid-gutter-width);
+//     }
+// }
+
+
+// General Vars
+$h1-font-size: 48px;
+$h2-font-size: 52px;
+$h3-font-size: 25px;
+
+$transition-speed: 250ms;
+
+

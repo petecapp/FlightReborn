@@ -1,0 +1,16 @@
+body {
+    background-color: $body-bg;
+    @include font-body-regular;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @media print {
+        background: #fff;
+    }
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
